@@ -1,0 +1,81 @@
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 37px;
+}
+main {
+  background-image: url(images/bg-desktop.svg);
+  background-color: hsl(257, 40%, 49%);
+}
+section > .logo img {
+  width: 13%;
+}
+.top-section .logo {
+  padding: 30px 0 50px 30px;
+}
+.body-container {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.829);
+  display: flex;
+}
+.half-width {
+  width: 40%;
+  padding: 2%;
+}
+.body-container > .half-width {
+  margin-right: 10%;
+}
+.button {
+  color: rgba(255, 255, 255, 0.829);
+  transition: 0s background-color;
+}
+.button:hover {
+  background-color: white;
+  transition-duration: 1.2s;
+  color: hsl(300, 69%, 71%);
+}
+.body-container a {
+  text-decoration: none;
+  font-size: 20px;
+  background-color: hsl(300, 69%, 71%);
+  border-radius: 30px;
+  padding: 3% 12%;
+  margin-top: 20px;
+}
+.fab{
+    font-size: 20px;
+    color: white;
+    padding: .7%;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0% .5% 1% .5%;
+}
+.social-icons{
+    position: relative;
+    left: 85%;
+}
+.social-icons .fab:hover{
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+    transition-duration: .6s;
+}
+.attribution { 
+      font-size: 11px; text-align: center; 
+}
+.attribution a { 
+      text-decoration: none;
+      color: hsl(228, 74%, 56%);
+      border: 1px solid hsl(300, 69%, 71%);
+      padding: .3% .8%;
+      border-radius: 12px;
+}
+.attribution a:hover{
+    border: 1px solid white;
+    transition-duration: .5s;
+}

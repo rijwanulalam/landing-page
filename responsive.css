@@ -1,0 +1,60 @@
+@media screen and (max-width: 375px){
+    body {
+        margin: 0 auto;
+        max-width: 375px;
+      }
+    main {
+        background-image: url(images/bg-mobile.svg);
+        
+      }
+      section > .logo img {
+        width: 24%;
+      }
+      .top-section .logo {
+        padding: 30px 0 50px 30px;
+      }
+      h1 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        text-align: center;
+      }
+      .body-container {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.829);
+        display: grid;
+        justify-content: center;
+      }
+      .half-width {
+        width: 100%;
+        margin-top: 0
+        
+      }
+      section > .half-width > img{
+          width: 88%;
+      }
+      .body-container > .half-width{
+        margin-right: 0%;
+        position: relative;
+        left: 2.5%;
+      }
+      section > .text{
+          width: 88%;
+      }
+      .half-width p{
+          text-align: center;
+      }
+      .body-container a{
+          position: relative;
+          left: 30%;
+      }
+      
+      .social-icons{
+        position: relative;
+        left: 36%;
+        margin-top: 10%;
+        padding: 5%;
+    }
+}
